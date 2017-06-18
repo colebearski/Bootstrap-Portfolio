@@ -1,0 +1,96 @@
+/**** Navigation Bar ****/
+
+.navbar#leader {
+	background-color: #fff;
+	border-bottom: solid 2px #ccc;
+}
+
+.navbar-brand#chief {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 135%;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+li a {
+	display: block;
+	color: #777;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #e7e7e7;
+}
+
+/**** Background Image ****/
+
+body, html {
+	height: 100%;
+	background-image: url("http://allswalls.com/images/2014-kawasaki-kx450f-motocross-moto-dirtbike-wallpaper-3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/**** About Me Section ****/
+
+.about {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
+.about h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+.about img {
+	float: left;
+	margin-right: 10px;
+}
+
+/**** Connect with me Section ****/
+
+.sidebar {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
+.sidebar h2 {
+	text-align: center;
+	border-bottom: solid 3px #ddd;
+}
+
+#social #holder ul li {
+	display: inline-block;
+	padding: 18px;
+}
+
+/**** Footer Section ****/
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #666;
+	text-align: center;
+	color: white;
+	border-top: solid 2px #4aaaa5;
+	padding-top: 15px;	
+}
+
+
+
+
+
+
+
+
+
+
