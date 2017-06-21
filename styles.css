@@ -49,9 +49,49 @@ body, html {
 }
 
 .about img {
-	float: left;
-	margin-right: 10px;
+	margin-left: 20%;
+	margin-bottom: 15px;
+	width: 60%;
+	height: 60%;
 }
+
+/**** Portfolio Gallery ****/
+
+.project {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
+.project h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.gallery {
+	margin: 15px;
+}
+
+/**** Contact Form ****/
+
+.placeholder {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;	
+}
+
+.placeholder h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+input[type=submit]:hover {
+	background-color: #4aaaa5;
+}
+
 
 /**** Connect with me Section ****/
 
@@ -59,16 +99,18 @@ body, html {
 	background-color: #fff;
 	border: 2px solid #ddd;
 	padding: 15px;
+	margin-top: 18px;
 }
 
 .sidebar h2 {
-	text-align: center;
+	text-align: left;
 	border-bottom: solid 3px #ddd;
 }
 
 #social #holder ul li {
 	display: inline-block;
-	padding: 18px;
+	padding: 0px;
+
 }
 
 /**** Footer Section ****/
@@ -84,6 +126,90 @@ body, html {
 	border-top: solid 2px #4aaaa5;
 	padding-top: 15px;	
 }
+
+              /**** Media Queries ****/
+
+/** Desktop **/
+
+@media (min-width: 980px) {
+
+/** Connect With me **/
+
+	.sidebar {
+		margin-top: 0px;
+	}
+
+	.sidebar h2 {
+		text-align: center;
+	}
+
+	#social #holder ul li {
+		display: inline-block;
+		padding: 18px;
+	}
+
+	.about img {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 180px;
+		height: 180px;
+	}
+
+/** Portfolio Gallery **/
+
+	.project {
+		background-color: #fff;
+		border: 2px solid #ddd;
+		padding: 15px;
+		float: left;
+		clear: both;
+	}
+
+	.gallery img {
+		width: 80%;
+		height: 80%;
+	}
+
+}
+
+/** Tablet **/
+
+@media (min-width: 768px) {
+
+/** About Me Section **/
+
+	.about img {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 34%;
+		height: 34%;
+	}
+
+/** Portfolio Gallery **/
+
+	.gallery img {
+		width: 50%;
+		height: 50%;
+	}
+
+}
+
+/** Mobile **/
+
+/** Bootstrap is built mobile first **/
+
+@media (min-width: 640px) {
+
+}
+
+
+
+
+
 
 
 
